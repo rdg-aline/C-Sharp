@@ -1,0 +1,16 @@
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\bin\Debug\net5.0\Interactve1.exe
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\bin\Debug\net5.0\Interactve1.deps.json
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\bin\Debug\net5.0\Interactve1.runtimeconfig.json
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\bin\Debug\net5.0\Interactve1.runtimeconfig.dev.json
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\bin\Debug\net5.0\Interactve1.dll
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\bin\Debug\net5.0\ref\Interactve1.dll
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\bin\Debug\net5.0\Interactve1.pdb
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\obj\Debug\net5.0\Interactve1.csprojAssemblyReference.cache
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\obj\Debug\net5.0\Interactve1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\obj\Debug\net5.0\Interactve1.AssemblyInfoInputs.cache
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\obj\Debug\net5.0\Interactve1.AssemblyInfo.cs
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\obj\Debug\net5.0\Interactve1.csproj.CoreCompileInputs.cache
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\obj\Debug\net5.0\Interactve1.dll
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\obj\Debug\net5.0\ref\Interactve1.dll
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\obj\Debug\net5.0\Interactve1.pdb
+C:\Users\Aline Rodrigues\source\repos\Interactve1\Interactve1\obj\Debug\net5.0\Interactve1.genruntimeconfig.cache

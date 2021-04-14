@@ -1,0 +1,16 @@
+C:\Users\Aline Rodrigues\source\repos\Band\Band\bin\Debug\net5.0\Band.exe
+C:\Users\Aline Rodrigues\source\repos\Band\Band\bin\Debug\net5.0\Band.deps.json
+C:\Users\Aline Rodrigues\source\repos\Band\Band\bin\Debug\net5.0\Band.runtimeconfig.json
+C:\Users\Aline Rodrigues\source\repos\Band\Band\bin\Debug\net5.0\Band.runtimeconfig.dev.json
+C:\Users\Aline Rodrigues\source\repos\Band\Band\bin\Debug\net5.0\Band.dll
+C:\Users\Aline Rodrigues\source\repos\Band\Band\bin\Debug\net5.0\ref\Band.dll
+C:\Users\Aline Rodrigues\source\repos\Band\Band\bin\Debug\net5.0\Band.pdb
+C:\Users\Aline Rodrigues\source\repos\Band\Band\obj\Debug\net5.0\Band.csprojAssemblyReference.cache
+C:\Users\Aline Rodrigues\source\repos\Band\Band\obj\Debug\net5.0\Band.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aline Rodrigues\source\repos\Band\Band\obj\Debug\net5.0\Band.AssemblyInfoInputs.cache
+C:\Users\Aline Rodrigues\source\repos\Band\Band\obj\Debug\net5.0\Band.AssemblyInfo.cs
+C:\Users\Aline Rodrigues\source\repos\Band\Band\obj\Debug\net5.0\Band.csproj.CoreCompileInputs.cache
+C:\Users\Aline Rodrigues\source\repos\Band\Band\obj\Debug\net5.0\Band.dll
+C:\Users\Aline Rodrigues\source\repos\Band\Band\obj\Debug\net5.0\ref\Band.dll
+C:\Users\Aline Rodrigues\source\repos\Band\Band\obj\Debug\net5.0\Band.pdb
+C:\Users\Aline Rodrigues\source\repos\Band\Band\obj\Debug\net5.0\Band.genruntimeconfig.cache

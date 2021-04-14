@@ -1,0 +1,5 @@
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 1\pratica\test\GradeBook.Tests\obj\Debug\net5.0\GradeBook.csprojAssemblyReference.cache
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 1\pratica\test\GradeBook.Tests\obj\Debug\net5.0\GradeBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 1\pratica\test\GradeBook.Tests\obj\Debug\net5.0\GradeBook.AssemblyInfoInputs.cache
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 1\pratica\test\GradeBook.Tests\obj\Debug\net5.0\GradeBook.AssemblyInfo.cs
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 1\pratica\test\GradeBook.Tests\obj\Debug\net5.0\GradeBook.csproj.CoreCompileInputs.cache
