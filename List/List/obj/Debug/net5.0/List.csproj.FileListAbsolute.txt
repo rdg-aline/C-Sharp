@@ -1,0 +1,16 @@
+C:\Users\Aline Rodrigues\source\repos\List\List\bin\Debug\net5.0\List.exe
+C:\Users\Aline Rodrigues\source\repos\List\List\bin\Debug\net5.0\List.deps.json
+C:\Users\Aline Rodrigues\source\repos\List\List\bin\Debug\net5.0\List.runtimeconfig.json
+C:\Users\Aline Rodrigues\source\repos\List\List\bin\Debug\net5.0\List.runtimeconfig.dev.json
+C:\Users\Aline Rodrigues\source\repos\List\List\bin\Debug\net5.0\List.dll
+C:\Users\Aline Rodrigues\source\repos\List\List\bin\Debug\net5.0\ref\List.dll
+C:\Users\Aline Rodrigues\source\repos\List\List\bin\Debug\net5.0\List.pdb
+C:\Users\Aline Rodrigues\source\repos\List\List\obj\Debug\net5.0\List.csprojAssemblyReference.cache
+C:\Users\Aline Rodrigues\source\repos\List\List\obj\Debug\net5.0\List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aline Rodrigues\source\repos\List\List\obj\Debug\net5.0\List.AssemblyInfoInputs.cache
+C:\Users\Aline Rodrigues\source\repos\List\List\obj\Debug\net5.0\List.AssemblyInfo.cs
+C:\Users\Aline Rodrigues\source\repos\List\List\obj\Debug\net5.0\List.csproj.CoreCompileInputs.cache
+C:\Users\Aline Rodrigues\source\repos\List\List\obj\Debug\net5.0\List.dll
+C:\Users\Aline Rodrigues\source\repos\List\List\obj\Debug\net5.0\ref\List.dll
+C:\Users\Aline Rodrigues\source\repos\List\List\obj\Debug\net5.0\List.pdb
+C:\Users\Aline Rodrigues\source\repos\List\List\obj\Debug\net5.0\List.genruntimeconfig.cache
