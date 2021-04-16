@@ -1,0 +1,16 @@
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\bin\Debug\net5.0\DictSnippets.exe
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\bin\Debug\net5.0\DictSnippets.deps.json
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\bin\Debug\net5.0\DictSnippets.runtimeconfig.json
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\bin\Debug\net5.0\DictSnippets.runtimeconfig.dev.json
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\bin\Debug\net5.0\DictSnippets.dll
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\bin\Debug\net5.0\ref\DictSnippets.dll
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\bin\Debug\net5.0\DictSnippets.pdb
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\obj\Debug\net5.0\DictSnippets.csprojAssemblyReference.cache
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\obj\Debug\net5.0\DictSnippets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\obj\Debug\net5.0\DictSnippets.AssemblyInfoInputs.cache
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\obj\Debug\net5.0\DictSnippets.AssemblyInfo.cs
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\obj\Debug\net5.0\DictSnippets.csproj.CoreCompileInputs.cache
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\obj\Debug\net5.0\DictSnippets.dll
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\obj\Debug\net5.0\ref\DictSnippets.dll
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\obj\Debug\net5.0\DictSnippets.pdb
+C:\Users\Aline Rodrigues\Downloads\demos-dotnet5\m05 dictionaries\DictSnippets\obj\Debug\net5.0\DictSnippets.genruntimeconfig.cache
