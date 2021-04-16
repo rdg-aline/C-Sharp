@@ -1,0 +1,12 @@
+﻿Objetivo da Aplicação:
+1 - pegar dados populacionais dos paises de um arquivo externo CSV;
+2- ler todos os dados do arquivo em uma coleção
+3 - mostrar na tela todos os dados recebidos
+
+Aplicação refatorada com uso de Lista
+
+
+Files:
+Program.cs = executar a logica geral
+Country.cs = classe que representa um unico país
+CsvReader.cs = classe responsavel por importar os dados dos países do arquivo CSV, fazer a leitura de todos os paises  e preencher minha coleção
