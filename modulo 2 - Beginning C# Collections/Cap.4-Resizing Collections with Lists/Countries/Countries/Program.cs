@@ -20,15 +20,17 @@ namespace Countries
 
 
             #region Insert in the List:  List<T>.Insert()
-            Country ilhaDasRosas = new Country("IlhaDasRosas", "IR", "Where you wish", 22000);
-            // int index = 1; inormando o indice diretamente ou
-            int index = countries.FindIndex(x => x.Population <= 1386395000);
-            countries.Insert(index, ilhaDasRosas);
+            /*  Country ilhaDasRosas = new Country("IlhaDasRosas", "IR", "Where you wish", 22000);
+              // int index = 1; inormando o indice diretamente ou
+              int index = countries.FindIndex(x => x.Population <= 1386395000);
+              countries.Insert(index, ilhaDasRosas);
+            */
             #endregion
 
 
             #region Using LINQ
-            foreach (Country country in countries.Take(10))
+            //sorting in alphabetical order
+            foreach (Country country in countries.OrderBy(x=> x.Name))
              Console.WriteLine($" {country.Name} has population of : {country.Population}");
 
             #endregion
