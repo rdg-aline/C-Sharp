@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aline Rodrigues\\source\\repos\\Countries\\Countries\\Countries.csproj",
+      "projectUniqueName": "C:\\Users\\Aline Rodrigues\\Downloads\\Treinamentos\\C#\\modulo 2 - Beginning C# Collections\\Cap.4-Resizing Collections with Lists\\Countries\\Countries\\Countries.csproj",
       "projectName": "Countries",
-      "projectPath": "C:\\Users\\Aline Rodrigues\\source\\repos\\Countries\\Countries\\Countries.csproj",
+      "projectPath": "C:\\Users\\Aline Rodrigues\\Downloads\\Treinamentos\\C#\\modulo 2 - Beginning C# Collections\\Cap.4-Resizing Collections with Lists\\Countries\\Countries\\Countries.csproj",
       "packagesPath": "C:\\Users\\Aline Rodrigues\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aline Rodrigues\\source\\repos\\Countries\\Countries\\obj\\",
+      "outputPath": "C:\\Users\\Aline Rodrigues\\Downloads\\Treinamentos\\C#\\modulo 2 - Beginning C# Collections\\Cap.4-Resizing Collections with Lists\\Countries\\Countries\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aline Rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",

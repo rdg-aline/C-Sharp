@@ -47,6 +47,20 @@ namespace Countries
             return countries;
         }
 
+        /// <summary>
+        /// This method removes countries with commas in a for loop (correctly, counting backwards)
+        /// </summary>
+        /// <param name="countries"></param>
+        public void RemoveCommaCountries(List<Country> countries)
+        {
+            countries.RemoveAll(x => x.Name.Contains(','));
+           /* other alternative is to do:
+            for (int i = countries.Count - 1; i >= 0; i--)
+            {
+                if (countries[i].Name.Contains(','))
+                    countries.RemoveAt(i);
+            }*/
+        }
 
         /// <summary>
         /// Este método recebe como argumento  o dado de cada linha do arquivo CSV referente a um país

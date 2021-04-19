@@ -14,3 +14,19 @@ C:\Users\Aline Rodrigues\source\repos\Countries\Countries\obj\Debug\net5.0\Count
 C:\Users\Aline Rodrigues\source\repos\Countries\Countries\obj\Debug\net5.0\ref\Countries.dll
 C:\Users\Aline Rodrigues\source\repos\Countries\Countries\obj\Debug\net5.0\Countries.pdb
 C:\Users\Aline Rodrigues\source\repos\Countries\Countries\obj\Debug\net5.0\Countries.genruntimeconfig.cache
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\bin\Debug\net5.0\Countries.exe
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\bin\Debug\net5.0\Countries.deps.json
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\bin\Debug\net5.0\Countries.runtimeconfig.json
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\bin\Debug\net5.0\Countries.runtimeconfig.dev.json
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\bin\Debug\net5.0\Countries.dll
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\bin\Debug\net5.0\ref\Countries.dll
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\bin\Debug\net5.0\Countries.pdb
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\obj\Debug\net5.0\Countries.csprojAssemblyReference.cache
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\obj\Debug\net5.0\Countries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\obj\Debug\net5.0\Countries.AssemblyInfoInputs.cache
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\obj\Debug\net5.0\Countries.AssemblyInfo.cs
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\obj\Debug\net5.0\Countries.csproj.CoreCompileInputs.cache
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\obj\Debug\net5.0\Countries.dll
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\obj\Debug\net5.0\ref\Countries.dll
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\obj\Debug\net5.0\Countries.pdb
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\modulo 2 - Beginning C# Collections\Cap.4-Resizing Collections with Lists\Countries\Countries\obj\Debug\net5.0\Countries.genruntimeconfig.cache

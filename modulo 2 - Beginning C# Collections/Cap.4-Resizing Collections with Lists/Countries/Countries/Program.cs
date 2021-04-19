@@ -13,27 +13,75 @@ namespace Countries
 
             List<Country> countries = reader.ReadAllCountries();
 
+            #region Removing countries with commas
+             reader.RemoveCommaCountries(countries);
+            #endregion
 
 
             #region Insert in the List:  List<T>.Insert()
-            Country ilhaDasRosas = new Country("IlhaDasRosas", "IR", "Where you wish",22000);
+            Country ilhaDasRosas = new Country("IlhaDasRosas", "IR", "Where you wish", 22000);
             // int index = 1; inormando o indice diretamente ou
-            int index = countries.FindIndex(x=>x.Population <= 1386395000);
-            countries.Insert(index,ilhaDasRosas);
+            int index = countries.FindIndex(x => x.Population <= 1386395000);
+            countries.Insert(index, ilhaDasRosas);
             #endregion
 
 
 
-            foreach (Country country in countries)
-            {
-                // Console.WriteLine($" The {country.Name} which code is {country.Code},belong to {country.Region} has population of : {country.Population}");
-                  Console.WriteLine($" {country.Name} has population of : {country.Population}");
-             
+            #region Enumerating For x Foreach
+            //foreach (Country country in countries)
+            // Console.WriteLine($" {country.Name} has population of : {country.Population}");
 
+
+            /*
+            #region Display the number of countries which user request 
+            // Ask the user to choose number of countries to display
+            Console.Write("Enter no. of countries to display> ");
+            bool inputIsInt = int.TryParse(Console.ReadLine(), out int userInput);
+            if (!inputIsInt || userInput <= 0)
+            {
+                Console.WriteLine("You must type a number. Exiting");
+                return;
+            }
+
+            int maxToDisplay = Math.Min(userInput, countries.Count);
+            ;
+            for (int i = 0; i < maxToDisplay; i++)
+            {
+                Country country = countries[i];
+                Console.WriteLine($" {country.Name} has population of : {country.Population}");
+            }
+            #endregion 
+            */
+
+            #region Display some countries and give User option to disply more
+
+            Console.Write("Enter no. of countries to display> ");
+            bool inputIsInt = int.TryParse(Console.ReadLine(), out int userInput);
+            if (!inputIsInt || userInput <= 0)
+            {
+                Console.WriteLine("You must type in a +ve integer. Exiting");
+                return;
+            }
+
+            int maxToDisplay = userInput;
+            for (int i = 0; i < countries.Count; i++)
+            {
+                if (i > 0 && (i % maxToDisplay == 0))
+                {
+                    Console.WriteLine("Hit return to continue, anything else to quit>");
+                    if (Console.ReadLine() != "")
+                        break;
+                }
+
+                Country country = countries[i];
+                Console.WriteLine($"{i + 1}: {PopulationFormatter.FormatPopulation(country.Population).PadLeft(15)}: {country.Name}");
             }
 
 
+            #endregion
 
+
+            #endregion
         }
     }
 }
