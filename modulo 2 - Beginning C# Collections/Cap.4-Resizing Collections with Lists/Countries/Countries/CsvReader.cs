@@ -53,13 +53,16 @@ namespace Countries
         /// <param name="countries"></param>
         public void RemoveCommaCountries(List<Country> countries)
         {
+            // This removes countries with commas using the RemoveAll() method from List<T>
             countries.RemoveAll(x => x.Name.Contains(','));
-           /* other alternative is to do:
-            for (int i = countries.Count - 1; i >= 0; i--)
-            {
-                if (countries[i].Name.Contains(','))
-                    countries.RemoveAt(i);
-            }*/
+         
+            /* other alternative is to do is using for loop:
+             for (int i = countries.Count - 1; i >= 0; i--)
+             {
+                 if (countries[i].Name.Contains(','))
+                     countries.RemoveAt(i);
+             }
+            */
         }
 
         /// <summary>

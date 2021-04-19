@@ -29,9 +29,20 @@ namespace Countries
 
 
             #region Using LINQ
-            //sorting in alphabetical order
-            foreach (Country country in countries.OrderBy(x=> x.Name))
-             Console.WriteLine($" {country.Name} has population of : {country.Population}");
+           
+
+            // listing the first 20 countries without commas in their names
+            var filteredCountries = countries.Where(x => !x.Name.Contains(',')).Take(20);
+
+            //LINQ query syntax -  don't support Take feature:
+            var filteredCountriesLINQSyntax = from country in countries
+                                              where !country.Name.Contains(',')  
+                                              select country;
+
+
+            //Here I could use  filteredCountries or filteredCountriesLINQSyntax 
+            foreach (Country country in filteredCountries)
+                 Console.WriteLine($" {country.Name} has population of : {country.Population}");
 
             #endregion
 
