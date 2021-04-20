@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Countries
 {
@@ -10,7 +11,10 @@ namespace Countries
           
             CsvReader reader = new CsvReader(filePath);
 
-            Country[] countries = reader.ReadFirstNCountries(10);
+            //Against using array definition as below: 
+            //Country[] countries = reader.ReadFirstNCountries(10);
+            // it can run using the array with an interface, like this:
+            IList<Country> countries = reader.ReadFirstNCountries(10);
          
             foreach(Country country in countries)
             {
