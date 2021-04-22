@@ -50,10 +50,12 @@ namespace Countries
                 }
                 else if (userOption == "2")
                 {
-                   // foreach (Country nextCountry in countries.Values) 
-                    { 
-                      // Console.WriteLine($"Code: {nextCountry.Code} - Name: {nextCountry.Name}");
+                   foreach (var dicCountry in countries)//access the dicionary per key
+                    {
+                       foreach(var country in dicCountry.Value) // access the list in dicionary
+                         Console.WriteLine($"Code: {country.Code} - Name: {country.Name}");
                     }
+
                 }
                 else if (userOption == "3")
                 {
