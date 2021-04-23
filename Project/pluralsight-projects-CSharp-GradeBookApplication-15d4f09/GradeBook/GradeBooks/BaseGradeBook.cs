@@ -11,8 +11,12 @@ namespace GradeBook.GradeBooks
 {
     public class BaseGradeBook
     {
+        #region Fields
         public string Name { get; set; }
         public List<Student> Students { get; set; }
+
+        public GradeBookType Type { get; set; }
+        #endregion
 
         public BaseGradeBook(string name)
         {
@@ -20,6 +24,8 @@ namespace GradeBook.GradeBooks
             Students = new List<Student>();
         }
 
+        #region Methods 
+        
         public void AddStudent(Student student)
         {
             if (string.IsNullOrEmpty(student.Name))
@@ -265,6 +271,8 @@ namespace GradeBook.GradeBooks
                              select type).FirstOrDefault();
             
             return JsonConvert.DeserializeObject(json, gradebook);
+           
         }
+        #endregion
     }
 }
