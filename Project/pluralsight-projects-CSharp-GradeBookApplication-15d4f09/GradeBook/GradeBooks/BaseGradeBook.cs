@@ -110,6 +110,11 @@ namespace GradeBook.GradeBooks
             }
         }
 
+        public virtual void CalculateStudentStatistics()
+        {
+            throw new NotImplementedException();
+        }
+
         public virtual double GetGPA(char letterGrade, StudentType studentType)
         {
             switch (letterGrade)
