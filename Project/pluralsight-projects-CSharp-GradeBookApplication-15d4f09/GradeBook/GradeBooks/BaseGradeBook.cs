@@ -9,7 +9,7 @@ using Newtonsoft.Json.Linq;
 
 namespace GradeBook.GradeBooks
 {
-    public abstract  class BaseGradeBook
+    public abstract class BaseGradeBook
     {
         #region Fields
         public string Name { get; set; }
@@ -18,14 +18,21 @@ namespace GradeBook.GradeBooks
         public GradeBookType Type { get; set; }
         #endregion
 
-        public BaseGradeBook(string name)
+        public Boolean IsWeighted { get; set; }
+
+
+
+        public BaseGradeBook(string name, Boolean isWeighted)
         {
             Name = name;
             Students = new List<Student>();
+            IsWeighted = isWeighted;
         }
 
+
+
         #region Methods 
-        
+
         public void AddStudent(Student student)
         {
             if (string.IsNullOrEmpty(student.Name))
@@ -274,9 +281,9 @@ namespace GradeBook.GradeBooks
                              from type in assembly.GetTypes()
                              where type.FullName == "GradeBook.GradeBooks.StandardGradeBook"
                              select type).FirstOrDefault();
-            
+
             return JsonConvert.DeserializeObject(json, gradebook);
-           
+
         }
         #endregion
     }

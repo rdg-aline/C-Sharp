@@ -7,9 +7,9 @@ namespace GradeBook.GradeBooks
 {
     public class StandardGradeBook : BaseGradeBook
     {
-        public StandardGradeBook(string name) : base(name)
+        public StandardGradeBook(string name, Boolean IsWeighted) : base(name, IsWeighted)
         {
-            Type = GradeBookType.Standard;
+            Type = GradeBookType.Standard;          
         }
     }
 }
