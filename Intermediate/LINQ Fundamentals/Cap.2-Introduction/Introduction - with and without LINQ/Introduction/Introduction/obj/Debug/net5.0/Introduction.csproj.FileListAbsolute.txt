@@ -1,0 +1,16 @@
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\bin\Debug\net5.0\Introduction.exe
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\bin\Debug\net5.0\Introduction.deps.json
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\bin\Debug\net5.0\Introduction.runtimeconfig.json
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\bin\Debug\net5.0\Introduction.runtimeconfig.dev.json
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\bin\Debug\net5.0\Introduction.dll
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\bin\Debug\net5.0\ref\Introduction.dll
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\bin\Debug\net5.0\Introduction.pdb
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\obj\Debug\net5.0\Introduction.csprojAssemblyReference.cache
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\obj\Debug\net5.0\Introduction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\obj\Debug\net5.0\Introduction.AssemblyInfoInputs.cache
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\obj\Debug\net5.0\Introduction.AssemblyInfo.cs
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\obj\Debug\net5.0\Introduction.csproj.CoreCompileInputs.cache
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\obj\Debug\net5.0\Introduction.dll
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\obj\Debug\net5.0\ref\Introduction.dll
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\obj\Debug\net5.0\Introduction.pdb
+C:\Users\Aline Rodrigues\Downloads\Treinamentos\C#\Intermediate\LINQ Fundamentals\Cap.2-Introduction\Introduction - with and without LINQ\Introduction\Introduction\obj\Debug\net5.0\Introduction.genruntimeconfig.cache
