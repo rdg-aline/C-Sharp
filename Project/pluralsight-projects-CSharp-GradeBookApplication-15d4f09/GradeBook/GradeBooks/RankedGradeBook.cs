@@ -12,7 +12,7 @@ namespace GradeBook.GradeBooks
         /// This constructor is required to invoke a constructor from BaseGradeBook.
         /// </summary>
         /// <param name="name"></param>
-        public RankedGradeBook(string name) : base(name)
+        public RankedGradeBook(string name, Boolean IsWeighted) : base(name, IsWeighted)
         {
             Type = GradeBookType.Ranked;
         }
@@ -34,25 +34,34 @@ namespace GradeBook.GradeBooks
               Every X students with higher grades than the input grade knocks the letter grade down until you reach F.
             */
 
-            int B = (int)((Students.Count * 0.8));
-            int C = (int)((Students.Count * 0.6) );
-            int D = (int)((Students.Count * 0.4));
-            int F = (int)(Students.Count * 0.2);
 
+           
+            int A  =(int)(Students.Count * 0.2);
+            int B = (int)(Students.Count * 0.4);
+            int C = (int)(Students.Count * 0.6);
+            int D = (int)(Students.Count * 0.8);
+            
 
-            if (averageGrade > Students[B].AverageGrade)
+            // arrange from highest grades to lowest ones
+            List<double> sortedGrades = new List<double>();
+            foreach (var student in Students.OrderByDescending (s => s.AverageGrade))
+            {
+                sortedGrades.Add(student.AverageGrade);
+            }
+
+            if (averageGrade > sortedGrades[A])
             {
                 return 'A';
             }
-            else if ((averageGrade <= Students[B].AverageGrade) && (averageGrade > Students[C].AverageGrade))
+            else if (averageGrade > sortedGrades[B])
             {
                 return 'B';
             }
-            else if ((averageGrade <= Students[C].AverageGrade) && (averageGrade > Students[D].AverageGrade))
+            else if (averageGrade > sortedGrades[C])
             {
                 return 'C';
             }
-            else if ((averageGrade < Students[C].AverageGrade) && (averageGrade > Students[F].AverageGrade))
+            else if (averageGrade > sortedGrades[D])
             {
                 return 'D';
             }
