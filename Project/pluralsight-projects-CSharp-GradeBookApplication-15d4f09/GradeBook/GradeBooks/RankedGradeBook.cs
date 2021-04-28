@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace GradeBook.GradeBooks
 {
@@ -44,7 +43,8 @@ namespace GradeBook.GradeBooks
 
             // arrange from highest grades to lowest ones
             List<double> sortedGrades = new List<double>();
-            foreach (var student in Students.OrderByDescending (s => s.AverageGrade))
+            var query = Students.OrderByDescending(s => s.AverageGrade);
+            foreach (var student in query)
             {
                 sortedGrades.Add(student.AverageGrade);
             }
