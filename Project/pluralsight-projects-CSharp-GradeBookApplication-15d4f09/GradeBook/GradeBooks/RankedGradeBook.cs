@@ -43,7 +43,16 @@ namespace GradeBook.GradeBooks
 
             // arrange from highest grades to lowest ones
             List<double> sortedGrades = new List<double>();
+
+            /* with Query Syntax
+             
+            var query = from Student in Students
+                        orderby Student.AverageGrade descending
+                        select Student; 
+            */
+            
             var query = Students.OrderByDescending(s => s.AverageGrade);
+
             foreach (var student in query)
             {
                 sortedGrades.Add(student.AverageGrade);
