@@ -51,6 +51,7 @@ namespace GradeBook.GradeBooks
                         select Student; 
             */
             
+            //method syntax
             var query = Students.OrderByDescending(s => s.AverageGrade);
 
             foreach (var student in query)

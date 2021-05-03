@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cars
 {
@@ -13,12 +9,12 @@ namespace Cars
             Max = Int32.MinValue;
             Min = Int32.MaxValue;
         }
-
+        
         public CarStatistics Accumulate(Car car)
         {
             Count += 1;
             Total += car.Combined;
-            Max = Math.Max(Max, car.Combined);// compare with MAX of  CarStatistic x car 
+            Max = Math.Max(Max, car.Combined);
             Min = Math.Min(Min, car.Combined);
             return this;
         }
