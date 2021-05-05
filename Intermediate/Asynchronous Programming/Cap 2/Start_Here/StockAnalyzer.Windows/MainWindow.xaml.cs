@@ -18,11 +18,11 @@ namespace StockAnalyzer.Windows
             InitializeComponent();
         }
         /// <summary>
-        /// Become this method async
+        /// Become this method in async
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Search_Click(object sender, RoutedEventArgs e)
+        private async void Search_Click(object sender, RoutedEventArgs e)
         {
             #region Before loading stock data
 
@@ -33,13 +33,22 @@ namespace StockAnalyzer.Windows
 
             #endregion
 
-            var client = new WebClient();
 
-            var content = client.DownloadString($"http://localhost:61363/api/stocks/{Ticker.Text}");
 
-            var data = JsonConvert.DeserializeObject<IEnumerable<StockPrice>>(content);
+            using (var client = new HttpClient()) 
+            {
+                // response = resposta da minha requisição
+                var response = await client.GetAsync($"http://localhost:61363/api/stocks/{Ticker.Text}");
 
-            Stocks.ItemsSource = data;
+                //aguarda a resposta até que o conteudo esteja  visivel
+                var content = await response.Content.ReadAsStringAsync();
+                
+                var data = JsonConvert.DeserializeObject<IEnumerable<StockPrice>>(content);
+
+                Stocks.ItemsSource = data;
+            }
+
+
 
             #region After stock data is loaded
             StocksStatus.Text = $"Loaded stocks for {Ticker.Text} in {watch.ElapsedMilliseconds}ms";
