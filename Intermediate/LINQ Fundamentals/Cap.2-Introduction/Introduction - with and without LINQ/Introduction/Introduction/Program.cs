@@ -35,8 +35,8 @@ namespace Introduction
 
             /* Another way to do is: 
               var query = from file in new DirectoryInfo(path).GetFiles()
-                        orderby file.Length descending
-                        select file;
+                          orderby file.Length descending
+                          select file;
 
                foreach (var file in query.Take(5))
                {
