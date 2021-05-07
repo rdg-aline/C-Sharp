@@ -17,11 +17,9 @@ namespace StockAnalyzer.Windows
         {
             InitializeComponent();
         }
-        /// <summary>
-        /// Become this method in async
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
+
+
         private async void Search_Click(object sender, RoutedEventArgs e)
         {
             #region Before loading stock data
@@ -33,28 +31,57 @@ namespace StockAnalyzer.Windows
 
             #endregion
 
+            // var x = GetStocks().IsCompleted;
+            //var C = x.IsCompleted;
+            //var line = Task.WhenAny(x);
+            //_= C;
 
 
-            using (var client = new HttpClient()) 
+            try
             {
-                // response = resposta da minha requisição
-                var response = await client.GetAsync($"http://localhost:61363/api/stocks/{Ticker.Text}");
-
-                //aguarda a resposta até que o conteudo esteja  visivel
-                var content = await response.Content.ReadAsStringAsync();
-                
-                var data = JsonConvert.DeserializeObject<IEnumerable<StockPrice>>(content);
-
-                Stocks.ItemsSource = data;
+                await GetStocks();
+            }
+            catch (Exception ex)
+            {
+                Notes.Text += ex.Message;
             }
 
-
+           
 
             #region After stock data is loaded
             StocksStatus.Text = $"Loaded stocks for {Ticker.Text} in {watch.ElapsedMilliseconds}ms";
             StockProgress.Visibility = Visibility.Hidden;
             #endregion
         }
+
+
+        /// <summary>
+        /// Async mehtod Task type
+        /// </summary>
+        /// <returns></returns>
+        public async Task GetStocks()
+        {
+            using (var client = new HttpClient())
+            {
+                var response = await client.GetAsync($"http://localhost:61363/api/stocks/{Ticker.Text}");
+
+                try
+                {
+                    response.EnsureSuccessStatusCode();
+
+                    var content = await response.Content.ReadAsStringAsync();
+
+                    var data = JsonConvert.DeserializeObject<IEnumerable<StockPrice>>(content);
+
+                    Stocks.ItemsSource = data;
+                }
+                catch (Exception ex)
+                {
+                    Notes.Text += ex.Message;
+                }
+            }
+        }
+
 
         private void Hyperlink_OnRequestNavigate(object sender, RequestNavigateEventArgs e)
         {
