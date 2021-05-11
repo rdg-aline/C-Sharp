@@ -1,0 +1,9 @@
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons.Library\bin\Debug\netstandard2.0\Polygons.Library.deps.json
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons.Library\bin\Debug\netstandard2.0\Polygons.Library.dll
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons.Library\bin\Debug\netstandard2.0\Polygons.Library.pdb
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons.Library\obj\Debug\netstandard2.0\Polygons.Library.csprojAssemblyReference.cache
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons.Library\obj\Debug\netstandard2.0\Polygons.Library.AssemblyInfoInputs.cache
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons.Library\obj\Debug\netstandard2.0\Polygons.Library.AssemblyInfo.cs
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons.Library\obj\Debug\netstandard2.0\Polygons.Library.csproj.CoreCompileInputs.cache
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons.Library\obj\Debug\netstandard2.0\Polygons.Library.dll
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons.Library\obj\Debug\netstandard2.0\Polygons.Library.pdb

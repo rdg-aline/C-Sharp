@@ -1,0 +1,15 @@
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.deps.json
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.runtimeconfig.json
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.runtimeconfig.dev.json
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.dll
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.pdb
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.Library.dll
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.Library.pdb
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.csprojAssemblyReference.cache
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.AssemblyInfoInputs.cache
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.AssemblyInfo.cs
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.csproj.CoreCompileInputs.cache
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.csproj.CopyComplete
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.dll
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.pdb
+C:\Users\Aline Rodrigues\Downloads\interfaces\02\demos\before\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.genruntimeconfig.cache
