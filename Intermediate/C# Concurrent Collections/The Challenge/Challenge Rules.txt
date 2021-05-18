@@ -1,0 +1,10 @@
+The challenge is to modify the BuyStock() method in the StockController class so that it does not use the AddOrUpdate() method: You have to solve the problem so that BuyStock() always succeeds using the lower level methods.
+
+Remember, the logic of the method is that it needs to ensure that the item with key code is in the dictionary, 
+and add quantity to that item in a thread-safe manner.
+If the item is not currently in the dictionary, then it's not yet in stock so its current value is 0.
+
+The rules are: You may use any of concurrent dictionary's low-level TryXXXX methods
+(TryGetValue(), TryAdd(), TryUpdate(), etc.) but you may NOT use the higher level methods
+GetOrAdd() and AddOrUpdate(). And you may not use locks or any other explicit
+thread synchronisation tools.
